@@ -3,20 +3,18 @@ module.exports = {
   content: ["*.html"],
   theme: {
     colors: {
-      'pale-blue': 'hsl(225, 100%, 94%)',
-      'bright-blue':'hsl(245, 75%, 52%)',
-      'very-pale-blue': 'hsl(225, 100%, 98%)',
-      'desaturated-blue': 'hsl(224, 23%, 55%)',
-      'dark-blue': 'hsl(223, 47%, 23%)',
-      'white': 'hsl(0, 0%, 100%)',
+      'cyan': 'hsl(185, 75%, 39%)',
+      'blue':'hsl(229, 23%, 23%)',
+      'grayish-blue': 'hsl(227, 10%, 46%)',
+      'gray': 'hsl(0, 0%, 59%)',
     },
     extend: {
       backgroundImage: {
-        'desktop':"url('images/pattern-background-desktop.svg')",
-        'mobile':"url('images/pattern-background-mobile.svg')",
+        'pattern-bottom':"url('images/bg-pattern-bottom.svg')",
+        'pattern-top':"url('images/bg-pattern-top.svg')",
       },
       fontFamily: {
-        'red-hat-display'  : ['Red Hat Display', 'sans-serif'],
+        'sans'  : ['Kumbh Sans', 'sans-serif'],
       },
     },
   },
