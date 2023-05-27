@@ -7,6 +7,7 @@ module.exports = {
       'blue':'hsl(229, 23%, 23%)',
       'grayish-blue': 'hsl(227, 10%, 46%)',
       'gray': 'hsl(0, 0%, 59%)',
+      'white': 'hsl(0, 0%, 100%)',
     },
     extend: {
       backgroundImage: {
